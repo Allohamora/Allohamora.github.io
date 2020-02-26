@@ -88,8 +88,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
 
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding: 50px;
 }
 
 .flex-container li {
@@ -98,6 +97,8 @@ body {
     align-items: center;
 
     width: 25.1%;
+
+    padding-bottom: 40px;
 }
 
 .flex-container li img {
@@ -107,6 +108,8 @@ body {
 
 .flex-container li p {
     max-width: 150px;
+    max-height: 140px;
+    overflow: hidden;
 }
 
 /* .flex-container.column styles */
@@ -118,7 +121,7 @@ body {
 .flex-container.column li {
     width: 100%;
     flex-direction: row;
-    padding: 0 40px 20px;
+    padding: 0 50px 40px;
 }
 
 .flex-container.column li:last-child {
