@@ -126,10 +126,6 @@ body {
     padding: 0 50px 40px;
 }
 
-.flex-container.column li:last-child {
-    padding-bottom: 0;
-}
-
 .flex-container.column li p {
     padding-left: 5px;
     max-width: none;
