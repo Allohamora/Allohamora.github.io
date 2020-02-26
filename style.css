@@ -27,15 +27,69 @@ body {
 .app {
     width: 100%;
     margin: 50px 10%;
+
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+/* buttons styles */
+
+.buttons-wrap {
+    display: flex;
+    justify-content: flex-end;
+
+    padding: 12px;
+
+    border-bottom: 2px solid black;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons button {
+    padding: 20px 100px;
+    background-color: inherit;
+
+    border: 2px solid black;
+    outline: none;
+    cursor: pointer;
+    
+    transition: all .2s;
+}
+
+.buttons button:hover {
+    box-shadow: 0 0 20px inset rgba(0,0,0, .2);
+}
+
+.buttons button:active {
+    box-shadow: 0 0 20px inset rgba(0,0,0, .5);
+}
+
+
+.buttons .button-rows {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right-width: 1px;
+}
+
+.buttons .button-squares {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left-width: 1px;
 }
 
 /* flex-container styles */
 
 .flex-container {
-    display: flex;
     width: 100%;
+
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .flex-container li {
