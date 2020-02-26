@@ -1,3 +1,55 @@
+/* resets */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* app styles */
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
 .app {
-    
+    margin: 50px 10%;
+}
+
+/* flex-container styles */
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-container li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 25.1%;
+}
+
+.flex-container li img {
+    width: 150px;
+    height: 150px;
+}
+
+.flex-container li p {
+    max-width: 150px;
 }
