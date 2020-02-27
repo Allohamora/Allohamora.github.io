@@ -38,6 +38,10 @@ body {
     border-radius: 2px;
 }
 
+h3 {
+    padding-left: 5px;
+}
+
 /* buttons styles */
 
 .buttons-wrap {
@@ -123,23 +127,6 @@ body {
 .flex-container li h2 {
     margin: 0;
     padding: 0;
-}
-
-.flex-container li span button {
-    background-color: inherit;
-
-    border: 2px solid rgba(0,0,0, .5);
-
-    border-radius: 5px;
-    transition: all .2s;
-}
-
-.flex-container li span button:hover {
-    border: 2px solid rgba( 0,0,2, 1 );
-}
-
-.flex-container li span button:active {
-    box-shadow: 0 2px inset rgba(0, 0, 0, .4);
 }
 
 .flex-container li span {

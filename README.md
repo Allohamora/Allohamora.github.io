@@ -1,3 +1,6 @@
 # Test task for ASD JS courses
-Cart button not working, and needed for test this markup!
+## TODO LIST
+1. Page with items list ✓
+2. Button Squares ✓
+3. Button Rows ✓
 ## Link to Github Pages : https://allohamora.github.io
