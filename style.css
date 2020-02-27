@@ -174,7 +174,7 @@ body {
 
 
 /* media */
-@media (max-width: 768px){
+@media (max-width: 900px){
 
     /* buttons */
     .buttons button {
@@ -185,12 +185,17 @@ body {
     /* flex-container */
     .flex-container li img {
         width: 100%;
+        max-width: 150px;
         height: auto;
     }
 
     .flex-container, .flex-container.column li {
         padding-left: 10px;
         padding-right: 10px;
+    }
+    
+    .flex-container li {
+        width: 35%;
     }
 
 }
@@ -211,9 +216,8 @@ body {
             width: auto;
             height: 90px;
         }
-
+    
         .flex-container li {
             width: 45%;
         }
-    
 }
