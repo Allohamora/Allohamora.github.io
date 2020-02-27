@@ -17,6 +17,11 @@ ul {
     margin: 0;
 }
 
+button {
+    outline: none;
+    cursor: pointer;
+}
+
 /* app styles */
 
 body {
@@ -53,8 +58,6 @@ body {
     background-color: inherit;
 
     border: 2px solid black;
-    outline: none;
-    cursor: pointer;
     
     transition: all .2s;
 }
@@ -99,7 +102,11 @@ body {
 
     width: 25.1%;
 
-    padding-bottom: 40px;
+    margin-bottom: 40px;
+
+    border: 1px solid lightgray;
+
+    text-align: center;
 }
 
 .flex-container li img {
@@ -111,8 +118,32 @@ body {
     max-width: 150px;
     max-height: 140px;
     overflow: hidden;
+}
 
-    text-align: center;
+.flex-container li h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container li span button {
+    background-color: inherit;
+
+    border: 2px solid rgba(0,0,0, .5);
+
+    border-radius: 5px;
+    transition: all .2s;
+}
+
+.flex-container li span button:hover {
+    border: 2px solid rgba( 0,0,2, 1 );
+}
+
+.flex-container li span button:active {
+    box-shadow: 0 2px inset rgba(0, 0, 0, .4);
+}
+
+.flex-container li span {
+    padding-bottom: 5px;
 }
 
 /* .flex-container.column styles */
@@ -124,12 +155,21 @@ body {
 .flex-container.column li {
     width: 100%;
     flex-direction: row;
-    padding: 0 50px 40px;
+    padding: 40px 20px;
 }
 
 .flex-container.column li p {
     padding-left: 5px;
     max-width: none;
+}
+
+.flex-container.column li h2 {
+    order: -1;
+    padding-right: 10px;
+}
+
+.flex-container.column li span {
+    padding-left: 5px;
 }
 
 
